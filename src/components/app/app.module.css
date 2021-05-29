@@ -1,15 +1,25 @@
 .app {
-  width: 100%;
-  max-width: 860px;
+    margin: 40px;
 
-  height: 576px;
-  margin: 0 auto;
-  padding: 102px 80px;
 }
 
-@media screen and (max-width: 750px) {
-  .app {
-    padding: 60px 20px;
-    box-sizing: border-box;
-  }
+.link {
+    composes: text text_type_main-default from global;
+    color: #C4C4C4;
+    text-decoration: none;
 }
+
+.linkActive {
+    composes: text text_type_main-default text_color_inactive from global;
+}
+
+.linkText {
+    composes: text text_type_main-default from global;
+}
+
+/*@media screen and (max-width: 750px) {*/
+/*    .app {*/
+/*        padding: 60px 20px;*/
+/*        box-sizing: border-box;*/
+/*    }*/
+/*}*/

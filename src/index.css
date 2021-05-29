@@ -1,13 +1,17 @@
-body {
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/ibm-plex-sans.woff") format("woff");
+}
+html{
   margin: 0;
-  font-family: JetBrains Mono;
+  padding: 0;
+}
+body {
+  font-family: 'JetBrains Mono', Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #C4C4C4;
-  background-color: #1C1C21;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background-color: #131316;
 }
